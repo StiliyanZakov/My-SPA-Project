@@ -1,0 +1,79 @@
+:root {
+  /* Основни цветове */
+  --primary-color: #2563eb; /* По-ярък синьо */
+  --secondary-color: #4f46e5; /* Индиго */
+  --success-color: #10b981; /* Изумруден */
+  --danger-color: #ef4444; /* Ярко червено */
+  --warning-color: #f59e0b; /* Оранжево */
+  --info-color: #3b82f6; /* Светло синьо */
+  
+  /* Неутрални цветове */
+  --light-color: #f8fafc;
+  --dark-color: #1e293b;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f1f5f9;
+  --border-color: #e2e8f0;
+  
+  /* Градиенти и ефекти */
+  --blue-gradient: linear-gradient(135deg, #2563eb, #1d4ed8);
+  --purple-gradient: linear-gradient(135deg, #4f46e5, #4338ca);
+  --auth-gradient: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  --box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --box-shadow-md: 0 10px 20px rgba(0, 0, 0, 0.05);
+  --box-shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.1);
+  
+  /* Акцентни цветове */
+  --blue-primary: #2563eb;
+  --blue-secondary: #1d4ed8;
+  --purple-primary: #4f46e5;
+  --purple-secondary: #4338ca;
+  
+  /* Съобщения */
+  --error-gradient: linear-gradient(135deg, #ef4444, #dc2626);
+  --success-gradient: linear-gradient(135deg, #10b981, #059669);
+  --warning-gradient: linear-gradient(135deg, #f59e0b, #d97706);
+  --info-gradient: linear-gradient(135deg, #3b82f6, #2563eb);
+  
+  /* Анимации */
+  --transition-fast: all 0.2s ease;
+  --transition-base: all 0.3s ease;
+  --transition-slow: all 0.5s ease;
+  --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --transition-elastic: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --animation-fade-in: fadeIn 0.5s ease-in;
+  --animation-slide-up: slideUp 0.5s ease-out;
+  --animation-scale: scale 0.3s ease;
+  
+  /* Размери */
+  --container-max-width: 1200px;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.5rem;
+  --spacing-xxl: 3rem;
+  --spacing-xxxl: 4rem;
+  
+  /* Типография */
+  --font-size-xs: 0.85rem;
+  --font-size-sm: 0.95rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.1rem;
+  --font-size-lg: 1.3rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
+  --font-size-xxxl: 2.5rem;
+  
+  /* Контейнери */
+  --container-padding: 1rem;
+  --section-spacing: 4rem;
+  --card-padding: 1.5rem;
+  
+  /* Breakpoints */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+} 
