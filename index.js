@@ -19,10 +19,8 @@ app.use(express.json());
 // Инициализиране на Firebase Admin
 let serviceAccount;
 if (process.env.FIREBASE_SERVICE_ACCOUNT) {
-  // За production среда
   serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 } else {
-  // За локална разработка
   serviceAccount = require('./serviceAccountKey.json');
 }
 
